@@ -70,6 +70,8 @@
         </div>
     </section>
     <!-- MENU SECTION END-->
+    <!-- HEADER -->
+
 <div class="content-wrapper">
         <div class="container">
             <div class="row">
@@ -121,6 +123,7 @@
         </div>
     </div>
 
+        <!-- FOOTER -->
        <!-- CONTENT-WRAPPER SECTION END-->
     <footer>
         <div class="container">
