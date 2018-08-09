@@ -9,6 +9,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <![endif]-->
     <title>PLN</title>
+    <!-- hai saul -->
     <!-- BOOTSTRAP CORE STYLE  -->
     <link href="<?php echo base_url('assets/css/bootstrap.css')?>" rel="stylesheet" />
     <!-- FONT AWESOME ICONS  -->
