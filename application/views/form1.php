@@ -70,7 +70,7 @@
         </div>
     </section>
     <!-- MENU SECTION END-->
-    <div class="content-wrapper">
+<div class="content-wrapper">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
@@ -176,7 +176,7 @@
                 </div>
             </div>
         </div>
-    <div class="row">
+    
         <div class='col-md-6'>
             <div class="form-group">
               <label for="date">Open Date :  </label>
@@ -184,7 +184,7 @@
                 
                 </div>
             </div>
-        </div>
+        
  
 
     
@@ -217,19 +217,20 @@
                 </div>
             </div>
         
-        </div>
-      </div>
     
                         
 
-                        
+        </div>
+        </div>
+        
+
         
 
 
-
           
-                        <Br>
-
+          <br>
+                       
+                        
                           <button type="submit" class="btn btn-default btn-lg">Submit </button>
                         </label></div></form>
                         
