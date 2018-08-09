@@ -87,6 +87,7 @@
                                 <table class="table table-striped table-bordered table-hover">
                                     <thead>
                                         <tr>
+                                            <th>No</th>
                                             <th>Area</th>
                                             <th>Jenis Gangguan</th>
                                             <th>Lokasi Gangguan</th>
@@ -98,10 +99,9 @@
                                     </thead>
                                     <tbody>
                                         <tr>
-                                            <td> 
-                <a class="btn btn-primary" href="<?php echo base_url();?>c_main/area">AJ Jatinegara</a></td>
-                                            <td> 
-                <button id="btn-primary" class="btn btn-primary" data-toggle="modal" data-target="">Kabel Putus</button></td>
+                                            <td>1</td>
+                                            <td> <a class="" href="<?php echo base_url();?>c_main/area">AJ Jatinegara</a></td>
+                                            <td><a class="" href="" data-toggle="modal" data-target="#myModal">Kabel Putus</a></td>
                                             <td>Lastmile</td>
                                             <td>Penyebab</td>
                                             <td>Solusi</td>
@@ -122,6 +122,27 @@
             </div>
         </div>
     </div>
+
+    <!-- Modal -->
+    <div id="myModal" class="modal fade" role="dialog">
+      <div class="modal-dialog">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <h4 class="modal-title">Keterangan Jenis Gangguan</h4>
+          </div>
+          <div class="modal-body">
+            <p>CABLE : PUTUS KABEL FO tipe F8</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+
+      </div>
+    </div> <!-- MODAL -->
 
         <!-- FOOTER -->
        <!-- CONTENT-WRAPPER SECTION END-->
