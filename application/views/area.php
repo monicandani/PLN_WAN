@@ -10,6 +10,7 @@
         <![endif]-->
         <!-- test -->
     <title>PLN</title>
+    <!-- hai saul -->
     <!-- BOOTSTRAP CORE STYLE  -->
     <link href="<?php echo base_url('assets/css/bootstrap.css')?>" rel="stylesheet" />
     <!-- FONT AWESOME ICONS  -->
