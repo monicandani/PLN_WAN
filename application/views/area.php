@@ -8,6 +8,7 @@
     <!--[if IE]>
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <![endif]-->
+        <!-- test -->
     <title>PLN</title>
     <!-- BOOTSTRAP CORE STYLE  -->
     <link href="<?php echo base_url('assets/css/bootstrap.css')?>" rel="stylesheet" />
