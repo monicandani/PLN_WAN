@@ -109,7 +109,7 @@
                 <a class="btn btn-primary" href="<?php echo base_url();?>c_main/waktu">Lihat</button></a>
                                             <td><center>
                 <a class="btn btn-default" href="<?php echo base_url();?>c_main/edit">Edit</a>
-        <button class="btn btn-danger" onclick='delete_user(<?php echo $u->id ?>)' data-toggle="modal" data-target="#myModal">Delete</button>
+        <button class="btn btn-danger" onclick='delete_user(<?php echo $u->id ?>)' data-toggle="modal" data-target="#myModal">Hapus</button>
             </td>
                                         </tr>
                                     </tbody>
@@ -131,13 +131,13 @@
         <div class="modal-content">
           <div class="modal-header">
             <button type="button" class="close" data-dismiss="modal">&times;</button>
-            <h4 class="modal-title">Keterangan Jenis Gangguan</h4>
+            <h4 class="modal-title" align="center">Keterangan Jenis Gangguan</h4>
           </div>
           <div class="modal-body">
-            <p>CABLE : PUTUS KABEL FO tipe F8</p>
+            <p align="center">CABLE : PUTUS KABEL FO tipe F8</p>
           </div>
           <div class="modal-footer">
-            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-default" data-dismiss="modal">Tutup</button>
           </div>
         </div>
 

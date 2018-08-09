@@ -89,7 +89,7 @@
                         </div>
                         <hr />
                       
-                        <a style="box-shadow: 8px 8px 5px #888888;" href="<?php echo base_url();?>c_main/v1" class="btn btn-info" ><span class="glyphicon glyphicon-user"></span> &nbsp;Log Me In </a>&nbsp;
+                        <a style="box-shadow: 8px 8px 5px #888888;" href="<?php echo base_url();?>c_main/home" class="btn btn-info" ><span class="glyphicon glyphicon-user"></span> &nbsp;Log Me In </a>&nbsp;
                     </p>
                     <hr />
                     
