@@ -87,7 +87,7 @@
                 <div class="col-md-12">
                   <!--   Kitchen Sink -->
 
-                  <a href="<?php echo base_url();?>c_main/v2" class="btn btn-primary btn-md"><span class="glyphicon glyphicon-plus-sign"></span> <b>TAMBAH</b> </a>
+                  <a href="<?php echo base_url();?>c_main/register" class="btn btn-primary btn-md"><span class="glyphicon glyphicon-plus-sign"></span> <b>TAMBAH</b> </a>
 
                   <br>
                   <br>
@@ -110,7 +110,7 @@
                                             <td>1234</td>
                                             <td>User</td>
                                             <td><center>
-                <a class="btn btn-default" href="<?php echo base_url();?>c_main/edit">Edit</a>
+                <a class="btn btn-default" href="<?php echo base_url();?>c_form/form_edit_user">Edit</a>
         <button class="btn btn-danger" onclick='delete_user(<?php echo $u->id ?>)' data-toggle="modal" data-target="#myModal">Hapus</button>
             </td>
                                         </tr>
