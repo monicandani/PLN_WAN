@@ -27,6 +27,7 @@ public function v2() {
   $this->load->view('form2');
  } 
 
+
 public function waktu() {
   $this->load->view('waktu');
  } 
@@ -43,9 +44,11 @@ public function edit() {
   $this->load->view('search');
  } 
 
-  public function datauser() {
-  $this->load->view('datauser');
- } 
+ public function searchuser() {
+  $this->load->view('searchuser');
+ }
+
+
 
 public function contoh() {
   $this->load->view('contoh/contoh1');
