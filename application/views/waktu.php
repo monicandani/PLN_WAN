@@ -107,9 +107,8 @@
                                 </table>
                                 <!-- back -->
                                 <br>
-                                <a href="<?php echo base_url();?>c_main/v2" class="btn btn-default" role="button">< KEMBALI </a>
+                                <a href="<?php echo base_url();?>c_main/v2" class="btn btn-default"><span class="glyphicon glyphicon-hand-left"></span> &nbsp; KEMBALI </a>&nbsp;
                                 <br>
-                                
                                 
                             </div>
                         </div>
