@@ -107,7 +107,6 @@
                                 </table>
                                 <br>
                                 
-                                    <button href="<?php echo base_url('c_main/v2');?>" type="button" class="btn btn-default" > <b> < Kembali</b></button>
                                 
                             </div>
                         </div>
