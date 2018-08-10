@@ -57,10 +57,11 @@
                 <div class="col-md-12">
                     <div class="navbar-collapse collapse ">
                         <ul id="menu-top" class="nav navbar-nav navbar-right">
-                            <li><a class="menu-top-active" href="<?php echo base_url();?>c_main/home">Beranda</a></li>
+                            <li><a href="<?php echo base_url();?>c_main/home">Beranda</a></li>
                             <li><a href="<?php echo base_url();?>c_main/v1">Masukkan Data</a></li>
                             <li><a href="<?php echo base_url();?>c_main/v2">Data</a></li>
                             <li><a href="<?php echo base_url();?>c_main/search">Pencarian</a></li>
+                            <li><a href="<?php echo base_url();?>c_main/registerpage">Daftar Akun</a></li>
                             <li><a href="<?php echo base_url();?>c_main/index">Keluar</a></li>
                         </ul>
                     </div>
@@ -70,7 +71,7 @@
             </div>
         </div>
     </section>
-   
+
     <!-- MENU SECTION END-->
     <div class="content-wrapper">
         <div class="container">
