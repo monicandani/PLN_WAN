@@ -61,6 +61,7 @@
                             <li><a href="<?php echo base_url();?>c_main/v1">Masukkan Data</a></li>
                             <li><a href="<?php echo base_url();?>c_main/v2">Data</a></li>
                             <li><a class="menu-top-active" href="<?php echo base_url();?>c_main/search">Pencarian</a></li>
+                            <li><a href="<?php echo base_url();?>c_main/search">Daftar Akun</a></li>
                             <li><a href="<?php echo base_url();?>c_main/index">Keluar</a></li>
                         </ul>
                     </div>
@@ -70,6 +71,7 @@
             </div>
         </div>
     </section>
+
    <!-- MENU SECTION END-->
     <div class="content-wrapper">
         <div class="container" >
