@@ -104,12 +104,14 @@
                                         </tr>
                                     </tbody>
                                 </table>
+                                <a href="<?php echo base_url();?>c_main/v2" class="btn btn-default" role="button">< KEMBALI </a>
+
                             </div>
                         </div>
                     </div>
                      <!-- End  Kitchen Sink -->
                 </div>
-            </div>
+            </div> <!-- container -->
         </div>
     </div>
 
