@@ -37,7 +37,7 @@
     
     <nav class="navbar navbar-inverse set-radius-zero" style="background-color: #086a87 ">
 
-  <center><img style="height: 120px;with: 120px;width: 120px" src="<?php echo base_url();?>/assets/img/pln.jpg"width="1350px" class="image1 mt-2"></center>
+  <center><img style="height: 120px;with: 120px;width: 120px" src="<?php echo base_url();?>/assets/img/pln.jpg" width="1350px" class="image1 mt-2"></center>
 </nav>
 </div>
 </div>
@@ -57,11 +57,11 @@
                 <div class="col-md-12">
                     <div class="navbar-collapse collapse ">
                         <ul id="menu-top" class="nav navbar-nav navbar-right">
-                            <li><a href="<?php echo base_url();?>c_main/home">Home</a></li>
-                            <li><a href="<?php echo base_url();?>c_main/v1">Input Data</a></li>
+                            <li><a href="<?php echo base_url();?>c_main/home">Beranda</a></li>
+                            <li><a href="<?php echo base_url();?>c_main/v1">Masukkan Data</a></li>
                             <li><a href="<?php echo base_url();?>c_main/v2">Data</a></li>
-                            <li><a class="menu-top-active" href="<?php echo base_url();?>c_main/search">Search</a></li>
-                            <li><a href="<?php echo base_url();?>c_main/index">Log Out</a></li>
+                            <li><a class="menu-top-active" href="<?php echo base_url();?>c_main/search">Pencarian</a></li>
+                            <li><a href="<?php echo base_url();?>c_main/index">Keluar</a></li>
                         </ul>
                     </div>
                 </div>
@@ -75,7 +75,7 @@
         <div class="container" >
             <div class="row">
                 <div class="col-md-12">
-                    <h4  class="page-head-line">Search </h4>
+                    <h4  class="page-head-line">Pencarian </h4>
                 </div>
             </div>
             <center>
