@@ -79,7 +79,7 @@
         <div class="container">
             <div class="row">
                     <div class="col-md-12">
-                        <h1 class="page-head-line">Data Gangguan</h1>
+                        <h1 class="page-head-line">Data</h1>
                     </div>
                 </div>
                 <div class="row">
@@ -92,20 +92,18 @@
                                         <tr>
                                             <th>No</th>
                                             <th>Area</th>
-                                            <th>Jenis Gangguan</th>
-                                            <th>Lokasi Gangguan</th>
+                                            <th>Jenis Keluhan</th>
                                             <th>Penyebab</th>
                                             <th>Solusi</th>
-                                            <th>Waktu Gangguan</th>
+                                            <th>Waktu Keluhan</th>
                                             <th>Aksi</th>
                                         </tr>
                                     </thead>
                                     <tbody>
                                         <tr>
                                             <td>1</td>
-                                            <td> <a class="" href="<?php echo base_url();?>c_main/area">AJ Jatinegara</a></td>
-                                            <td><a class="" href="" data-toggle="modal" data-target="#myModal">Kabel Putus</a></td>
-                                            <td>Lastmile</td>
+                                            <td> <a class="" href="<?php echo base_url();?>c_main/area">Jatinegara</a></td>
+                                            <td><a class="" href="" data-toggle="modal" data-target="#myModal"></a></td>
                                             <td>Penyebab</td>
                                             <td>Solusi</td>
                                             <td> 
@@ -134,10 +132,10 @@
         <div class="modal-content">
           <div class="modal-header">
             <button type="button" class="close" data-dismiss="modal">&times;</button>
-            <h4 class="modal-title" align="center">Keterangan Jenis Gangguan</h4>
+            <h4 class="modal-title" align="center">Keterangan Jenis Keluhan</h4>
           </div>
           <div class="modal-body">
-            <p align="center">CABLE : PUTUS KABEL FO tipe F8</p>
+            <p align="center">coba coba aja </p>
           </div>
           <div class="modal-footer">
             <button type="button" class="btn btn-default" data-dismiss="modal">Tutup</button>
