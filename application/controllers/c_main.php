@@ -43,10 +43,6 @@ public function edit() {
   $this->load->view('search');
  } 
 
-  public function datauser() {
-  $this->load->view('datauser');
- } 
-
  public function searchuser() {
   $this->load->view('searchuser');
  } 
