@@ -170,7 +170,7 @@
                           <select class="form-control"  id="Durasi " name="Durasi ">
                             <option value="_">_____Pilih Rentan Waktu_____</option>
                             <option value="Putus Kabel">< 4 Jam</option>
-                            <option value="Perangkat">4 Jam- 7 Jam </option>
+                            <option value="Perangkat"> 4 Jam - 7 Jam </option>
                             <option value="Modul"> > 7 Jam </option>
                           </select>
 </div>

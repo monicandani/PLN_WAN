@@ -47,6 +47,10 @@ public function edit() {
   $this->load->view('datauser');
  } 
 
+ public function searchuser() {
+  $this->load->view('searchuser');
+ } 
+
 public function contoh() {
   $this->load->view('contoh/contoh1');
   $this->load->view('contoh/ui');

@@ -58,7 +58,7 @@
                     <div class="navbar-collapse collapse ">
                         <ul id="menu-top" class="nav navbar-nav navbar-right">
                             <li><a class="menu-top-active" href="<?php echo base_url();?>c_main/v2">Data</a></li>
-                            <li><a href="<?php echo base_url();?>c_main/search">Pencarian</a></li>
+                            <li><a href="<?php echo base_url();?>c_main/searchuser">Pencarian</a></li>
                             <li><a href="<?php echo base_url();?>c_main/index">Keluar</a></li>
                         </ul>
                     </div>
