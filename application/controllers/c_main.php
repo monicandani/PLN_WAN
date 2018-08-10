@@ -27,6 +27,13 @@ public function v2() {
   $this->load->view('form2');
  } 
 
+public function v3() {
+  $this->load->view('form3');
+ }  
+
+public function v4() {
+  $this->load->view('form4');
+ } 
 
 public function waktu() {
   $this->load->view('waktu');
