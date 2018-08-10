@@ -39,6 +39,10 @@ public function edit() {
   $this->load->view('edit');
  } 
 
+ public function search() {
+  $this->load->view('search');
+ } 
+
 public function contoh() {
   $this->load->view('contoh/contoh1');
   $this->load->view('contoh/ui');

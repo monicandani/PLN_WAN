@@ -60,6 +60,7 @@
                             <li><a href="<?php echo base_url();?>c_main/home">Home</a></li>
                             <li><a href="<?php echo base_url();?>c_main/v1">Input Data</a></li>
                             <li><a href="<?php echo base_url();?>c_main/v2">Data</a></li>
+                            <li><a href="<?php echo base_url();?>c_main/search">Search</a></li>
                             <li><a href="<?php echo base_url();?>c_main/index">Log Out</a></li>
                         </ul>
                     </div>
@@ -69,6 +70,7 @@
             </div>
         </div>
     </section>
+   
     <!-- MENU SECTION END-->
     <div class="content-wrapper">
         <div class="container">
@@ -236,3 +238,37 @@
                 </div>
             </div>
         </div>
+        <hr/>
+        
+                       
+                        
+                          <button type="submit" class="btn btn-default btn-lg">Save </button>
+                        </label></div></form>
+                        
+                          
+                    </form>
+  </div>
+  </div>
+</div>
+ </div>
+            </div>
+        </div>
+    </div>
+    <!-- CONTENT-WRAPPER SECTION END-->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    &copy; 2018 | By : <a href="https://www.instagram.com/default_unj/" target="_blank">DEFAULT</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- FOOTER SECTION END-->
+    <!-- JAVASCRIPT AT THE BOTTOM TO REDUCE THE LOADING TIME  -->
+    <!-- CORE JQUERY SCRIPTS -->
+    <script src="<?php echo base_url('assets/js/jquery-1.11.1.js')?>"></script>
+    <!-- BOOTSTRAP SCRIPTS  -->
+    <script src="<?php echo base_url('assets/js/bootstrap.js')?>"></script>
+</body>
+</html>

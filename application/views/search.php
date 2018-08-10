@@ -58,9 +58,9 @@
                     <div class="navbar-collapse collapse ">
                         <ul id="menu-top" class="nav navbar-nav navbar-right">
                             <li><a href="<?php echo base_url();?>c_main/home">Home</a></li>
-                            <li><a class="menu-top-active" href="<?php echo base_url();?>c_main/v1">Input Data</a></li>
+                            <li><a href="<?php echo base_url();?>c_main/v1">Input Data</a></li>
                             <li><a href="<?php echo base_url();?>c_main/v2">Data</a></li>
-                            <li><a href="<?php echo base_url();?>c_main/search">Search</a></li>
+                            <li><a class="menu-top-active" href="<?php echo base_url();?>c_main/search">Search</a></li>
                             <li><a href="<?php echo base_url();?>c_main/index">Log Out</a></li>
                         </ul>
                     </div>
@@ -70,21 +70,23 @@
             </div>
         </div>
     </section>
-   
-    <!-- MENU SECTION END-->
-<div class="content-wrapper">
-        <div class="container">
+   <!-- MENU SECTION END-->
+    <div class="content-wrapper">
+        <div class="container" >
             <div class="row">
                 <div class="col-md-12">
-                    <h2 class="page-head-line"><strong> INPUT DATA</strong></h2>
+                    <h4  class="page-head-line">Search </h4>
                 </div>
             </div>
+            <center>
             <div class="row">
-                <div class="col-md-6">
-                    
-      <div class="form-group">
-      <label for="area">Area: </label>
-      <select id="area" name="area" class="form-control">
+            
+            <div>
+                <div class="col-md-3"></div>
+                <div class="col-md-6" style="margin-right:200 ; margin-left:200">
+                   <div class="alert alert-info">
+                     <label>Area: </label>
+                        <select id="area" name="area" class="form-control">
       <option value="_">_____Pilih Area_____</option>
       <option value="AJ Jatinegara">AJ Jatinegara</option>
       <option value="AJ Kebayoran (APL Bulungan)">AJ Kebayoran (APL Bulungan)</option>
@@ -125,12 +127,11 @@
       <option value="WAN Disjaya Backhaul">WAN Disjaya Backhaul</option>
       <option value="Wisma Cipayung">Wisma Cipayung </option>
     </select>
-  </div>
-  
-  <div class="form-group">
+
+<div class="form-group">
                           <label for="prodi">Jenis Gangguan :</label>
-                          <select class="form-control" id="jenis gangguan" name="jenis gangguan">
-                            <option value="_">_____Pilih Gangguan_____</option>
+                          <select class="form-control"  id="jenis gangguan" name="jenis gangguan">
+                            <option value="_">_____Pilih Jenis Gangguan_____</option>
                             <option value="Putus Kabel">Putus Kabel</option>
                             <option value="Perangkat">Perangkat (Switch,Router)</option>
                             <option value="Modul">Modul (Software/Konfig/Catalys)</option>
@@ -138,110 +139,42 @@
                             <option value="Patchord">Patchord (Fo indor)</option>
                             <option value="Power supply">Power supply</option>
                           </select>
-                        </div>
-
-  <div class="form-group">
-                          <label for="prodi">Layanan :</label>
-                          <select class="form-control" id="jenis gangguan" name="jenis gangguan">
-                            <option value="_">_____Pilih Layanan_____</option>
-                            <option value="IPVPN">IPVPN</option>
-                            <option value="Akses Internet">Akses Internet</option>
-                          </select>
-                        </div>
-
-  <div class="row">
-        <div class='col-md-12'>
-            <div class="form-group">
-              <label for="date">Lokasi Gangguan  </label>
-                    
-                    <textarea rows="1" class="form-control"></textarea>
-                </div>
-            </div>
-        </div>  
-
-    <div class="row">
-        <div class='col-md-12'>
-            <div class="form-group">
-              <label for="date">Penyebab :  </label>
-                    
-                    <textarea rows="5" class="form-control"></textarea>
-                </div>
-            </div>
-        </div>
-
-        <div class="row">
-        <div class='col-md-12'>
-            <div class="form-group">
-              <label for="date">Solusi :  </label>
-                    <textarea rows="5" class="form-control"></textarea>
-                
-                </div>
-            </div>
-        </div>
-    
-        <div class='col-md-6'>
-            <div class="form-group">
-              <label for="date">Open Date :  </label>
-                    <input type='date' class="form-control" />
-                
-                </div>
-            </div>
-        
- 
-
-    
-        <div class='col-md-6'>
-            <div class="form-group">
-              <label for="date">Open Time :  </label>
-                    <input type='time' class="form-control" />
-                
-                </div>
-            </div>
-        
-    
-
-        <div class='col-md-6'>
-            <div class="form-group">
-              <label for="date">Close Date :  </label>
-                    <input type='date' class="form-control" />
-                
-                </div>
-            </div>
-        
-
-
-    
-        <div class='col-md-6'>
-            <div class="form-group">
-              <label for="date">Close Time :  </label>
-                    <input type='time' class="form-control" />
-                
-                </div>
-            </div>
-        
-    
-                        
-
-        </div>
-        </div>
-        
-
-        
-
-
-          
-          <br>
-                       
-                        
-                          <button type="submit" class="btn btn-default btn-lg">Submit </button>
-                        </label></div></form>
-                        
-                          
-                    </form>
-  </div>
-  </div>
 </div>
- </div>
+<div class="form-group">
+                          <label for="prodi">Bulan :</label>
+                          <select class="form-control" id="jenis gangguan" name="jenis gangguan">
+                            <option value="_">_____Pilih Bulan_____</option>
+                            <option value="Januari">Januari</option>
+                            <option value="Februari">Februari</option>
+                            <option value="Maret">Maret</option>
+                            <option value="April">April</option>
+                            <option value="Mei">Mei</option>
+                            <option value="Juni">Juni</option>
+                            <option value="Juli">Juli</option>
+                            <option value="Agustus">Agustus</option>
+                            <option value="September">September</option>
+                            <option value="Oktober">Oktober</option>
+                            <option value="November">November</option>
+                            <option value="Desember">Desember</option>
+                          </select>
+</div>
+<div class="row">
+<div class='col-md-12'>
+            <div class="form-group">
+              <label for="date">Tahun :  </label>
+                    <input type='date' class="form-control" />
+                
+                </div>
+            </div>
+        </div>
+                        <hr />
+                        <button type="submit" class="btn btn-info"><span class="glyphicon glyphicon-search"></span> &nbsp;Cek </button>&nbsp;
+                        </div>
+                        </div>
+              </form>
+                </div>
+            <center/>
+            </div>
             </div>
         </div>
     </div>

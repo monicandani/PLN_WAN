@@ -58,6 +58,7 @@
                             <li><a class="menu-top-active" href="<?php echo base_url();?>c_main/home">Home</a></li>
                             <li><a href="<?php echo base_url();?>c_main/v1">Input Data</a></li>
                             <li><a href="<?php echo base_url();?>c_main/v2">Data</a></li>
+                            <li><a href="<?php echo base_url();?>c_main/search">Search</a></li>
                             <li><a href="<?php echo base_url();?>c_main/index">Log Out</a></li>
                         </ul>
                     </div>
@@ -67,7 +68,9 @@
             </div>
         </div>
     </section>
- 
+   
+    <!-- MENU SECTION END-->
+
 <div class="content-wrapper">
       <div class="container">
           <div class="row">
