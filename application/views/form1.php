@@ -229,6 +229,14 @@
                 
                 </div>
             </div>
+
+            <div class="row">
+        <div class='col-md-12'>
+            <div class="form-group">
+              <label for="date">Proses Penyelesaian </label>
+                    
+                    <textarea rows="1" class="form-control"></textarea>
+                </div>
         
     
                         
