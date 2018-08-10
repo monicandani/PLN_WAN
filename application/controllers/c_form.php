@@ -26,6 +26,17 @@ class c_form extends CI_Controller {
   $this->load->view('jenisgangguan');
  } 
 
+ public function jeniskeluhan() {
+  $this->load->view('jeniskeluhan');
+ } 
+
+ public function editkeluhan() {
+  $this->load->view('editkeluhan');
+ } 
+
+  public function tambahgangguan() {
+  $this->load->view('tambahgangguan');
+ } 
 
 }
 
