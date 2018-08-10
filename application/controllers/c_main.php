@@ -45,7 +45,20 @@ public function edit() {
 
  public function searchuser() {
   $this->load->view('searchuser');
+ }
+
+public function jenislayanan() {
+  $this->load->view('jenislayanan');
  } 
+
+ public function formuser() {
+  $this->load->view('formuser');
+ } 
+
+  public function jenisgangguan() {
+  $this->load->view('jenisgangguan');
+ } 
+
 
 public function contoh() {
   $this->load->view('contoh/contoh1');
