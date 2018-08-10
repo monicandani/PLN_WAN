@@ -91,7 +91,7 @@
     </div>
     
     <div class="col-md-6" align="center">
-        <a href="<?php echo base_url();?>c_main/v1" data-toggle="collapse">
+        <a href="<?php echo base_url();?>c_main/v2" data-toggle="collapse">
         <img style="" src="<?php echo base_url();?>/assets/img/notepad.png ?>"  width="200" height="200">
         <h4>Data</h4>
     </a>
