@@ -75,7 +75,7 @@
             <div class="col-md-6 col-sm-6" style="margin-right:200 ; margin-left:200 ">
                     <div class="panel panel-primary" style="box-shadow: 8px 8px 5px #888888">
                         <div class="panel-heading">
-                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Log In &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Masuk &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                         </div>
                         <div class="panel-body">
                         <div style="width: 320px" class="input-group">
@@ -89,11 +89,11 @@
                         </div>
                         <hr />
                       
-                        <a style="box-shadow: 8px 8px 5px #888888;" href="<?php echo base_url();?>c_main/home" class="btn btn-info" ><span class="glyphicon glyphicon-user"></span> &nbsp;Log Me In </a>&nbsp;
+                        <a style="box-shadow: 8px 8px 5px #888888;" href="<?php echo base_url();?>c_main/home" class="btn btn-info" ><span class="glyphicon glyphicon-user"></span> &nbsp;Masuk </a>&nbsp;
                     </p>
                     <hr />
                     
-                        <a style="box-shadow: 8px 8px 5px #888888;" href="<?php echo base_url();?>c_main/register" class="btn btn-info" ><span class="fa fa-pencil"></span> &nbsp; Register </a>&nbsp;
+                        <a style="box-shadow: 8px 8px 5px #888888;" href="<?php echo base_url();?>c_main/register" class="btn btn-info" ><span class="fa fa-pencil"></span> &nbsp; Daftar </a>&nbsp;
                     
 
                 </div>

@@ -91,7 +91,7 @@
   </div>
                            
 </div>
-                         <h5>Input Data </h5>
+                         <h5>Masukkan Data </h5>
                     </div>
                 </div>
                  <div class="col-md-6 col-sm-6 col-xs-6">
