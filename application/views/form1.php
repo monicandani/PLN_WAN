@@ -143,6 +143,16 @@
                           </select>
                         </div>
 
+                         <div class="row">
+        <div class='col-md-12'>
+            <div class="form-group">
+              <label for="date">Keterangan :  </label>
+                    <textarea rows="3" class="form-control"></textarea>
+                
+                </div>
+            </div>
+        </div>
+
   <div class="form-group">
                           <label for="prodi">Layanan :</label>
                           <select class="form-control" id="jenis gangguan" name="jenis gangguan">
