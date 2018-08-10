@@ -106,6 +106,7 @@
                                     </tbody>
                                 </table>
                                 <!-- back -->
+                                <br>
                                 <a href="<?php echo base_url();?>c_main/v2" class="btn btn-default" role="button">< KEMBALI </a>
                                 <br>
                                 
