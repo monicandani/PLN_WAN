@@ -50,12 +50,17 @@
     </div>
     <!-- LOGO HEADER END-->
        <section class="menu-section">
-        <div class="container" style="margin-bottom: 100px ">
+        <div class="container">
             <div class="row">
                 <div class="col-md-12">
                     <div class="navbar-collapse collapse ">
-                        <ul id="menu-top" class="nav navbar-nav navbar-center">
-                            <li><a >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sistem Pencatatan Gangguan WAN</a></li>
+                        <ul id="menu-top" class="nav navbar-nav navbar-right">
+                            <li><a href="<?php echo base_url();?>c_main/home">Beranda</a></li>
+                            <li><a href="<?php echo base_url();?>c_main/v1">Masukkan Data</a></li>
+                            <li><a href="<?php echo base_url();?>c_main/v2">Data</a></li>
+                            <li><a href="<?php echo base_url();?>c_main/search">Pencarian</a></li>
+                            <li><a class="menu-top-active" href="<?php echo base_url();?>c_main/register">Daftar Akun</a></li>
+                            <li><a href="<?php echo base_url();?>c_main/index">Keluar</a></li>
                         </ul>
                     </div>
                 </div>
@@ -64,50 +69,49 @@
             </div>
         </div>
     </section>
-    <!-- MENU SECTION END-->
+
+        <!-- MENU SECTION END-->
+
     <div class="content-wrapper">
         <div class="container">
             <div class="row">
-                
-            </div>
-            <form method="POST">
-                <div class="col-md-3"></div>
-            <div class="col-md-6 col-sm-6" style="margin-right:200 ; margin-left:200 ">
-                    <div class="panel panel-primary" style="box-shadow: 8px 8px 5px #888888">
-                        <div class="panel-heading">
-                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Masuk &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        </div>
-                        <div class="panel-body">
-                        <div style="width: 320px" class="input-group">
-                        <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
-                        <input placeholder="Username" type="text" name="noreg" id="noreg" class="form-control" />
-                        </div>
-                        <p>
-                        <div style="width: 320px" class="input-group">
-                        <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
-                        <input placeholder="Password" type="password" name="password" id="password" class="form-control" />
-                        </div>
-                        <hr />
-                      
-                        <a style="box-shadow: 8px 8px 5px #888888;" href="<?php echo base_url();?>c_main/home" class="btn btn-info" ><span class="glyphicon glyphicon-user"></span> &nbsp;Masuk </a>&nbsp;
-                    </p>
-                    <hr />
-                    
-                      <!--   <a style="box-shadow: 8px 8px 5px #888888;" href="<?php echo base_url();?>c_main/register" class="btn btn-info" ><span class="fa fa-pencil"></span> &nbsp; Daftar </a>&nbsp; -->
-                    
-
+                <div class="col-md-12">
+                    <h4 class="page-head-line">Edit Layanan </h4>
                 </div>
             </div>
-        </div>
-            </form>
-                     
+            <div class="row">
+                <div class="col-md-6">
+                    <br />
+                    <form onsubmit="return validasi()" action="<?php echo base_url();?>c_add/tambah_u" method="post">
+                        <div class="form-group">
+                          <label for="ID">SID <font color="red">*</font></label>
+                          <input style="width:500px" class="form-control" id="ID" type="text" name="NoIjazah">
+                        </div>
+                        <div class="form-group">
+                          <label for="nama">Lokasi<font color="red">*</font></label>
+                          <input id="nama" type="text" style="width:500px" class="form-control" name="nama">
+                        </div>
+                        <div class="form-group">
+                          <label for="password">Kapasitas<font color="red">*</font></label>
+                          <input id="password" type="password" style="width:500px" class="form-control" name="email">
+                        </div>
+                        <div class="form-group">
+                          <label for="comfirmpassword">Nama PIC<font color="red">*</font></td>
+                          <input type="password" id="confirmpassword" name="password" style="width:500px" class="form-control">
+                        </div>
+                        <div class="form-group">
+                          <label for="comfirmpassword">No. HP PIC<font color="red">*</font></td>
+                          <input type="password" id="confirmpassword" name="password" style="width:500px" class="form-control">
+                        </div>
+                        <hr/>
+                          <button type="submit" class="btn btn-default btn-lg">Edit </button>
+                        </label></div></form>
                         
+                        </div>
+                        </div>  
+                      </div>
                     </div>
-                </div>
-              </div>
-                       </div>
-</div>
-  </form>
+                  </div>
     <!-- CONTENT-WRAPPER SECTION END-->
     <footer>
         <div class="container">
@@ -124,6 +128,5 @@
     <script src="<?php echo base_url('assets/js/jquery-1.11.1.js')?>"></script>
     <!-- BOOTSTRAP SCRIPTS  -->
     <script src="<?php echo base_url('assets/js/bootstrap.js')?>"></script>
-    
 </body>
 </html>

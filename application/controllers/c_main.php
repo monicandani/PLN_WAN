@@ -27,6 +27,7 @@ public function v2() {
   $this->load->view('form2');
  } 
 
+
 public function waktu() {
   $this->load->view('waktu');
  } 
