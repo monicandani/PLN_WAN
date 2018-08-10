@@ -49,9 +49,7 @@
         </div>
     </div>
     <!-- LOGO HEADER END-->
-    <!-- MENU SECTION END-->    
-    <!-- LOGO HEADER END-->
-   <section class="menu-section">
+       <section class="menu-section">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
@@ -59,9 +57,9 @@
                         <ul id="menu-top" class="nav navbar-nav navbar-right">
                             <li><a href="<?php echo base_url();?>c_main/home">Beranda</a></li>
                             <li><a href="<?php echo base_url();?>c_main/v1">Masukkan Data</a></li>
-                            <li><a class="menu-top-active" href="<?php echo base_url();?>c_main/v2">Data</a></li>
+                            <li><a href="<?php echo base_url();?>c_main/v2">Data</a></li>
                             <li><a href="<?php echo base_url();?>c_main/search">Pencarian</a></li>
-                            <li><a href="<?php echo base_url();?>c_main/register">Daftar Akun</a></li>
+                            <li><a class="menu-top-active" href="<?php echo base_url();?>c_main/register">Daftar Akun</a></li>
                             <li><a href="<?php echo base_url();?>c_main/index">Keluar</a></li>
                         </ul>
                     </div>
@@ -71,79 +69,50 @@
             </div>
         </div>
     </section>
-   
-    <!-- MENU SECTION END-->
 
-    <!-- HEADER -->
+        <!-- MENU SECTION END-->
 
-<div class="content-wrapper">
+    <div class="content-wrapper">
         <div class="container">
             <div class="row">
-                    <div class="col-md-12">
-                        <h1 class="page-head-line">Layanan</h1>
-                    </div>
-                </div>
-                <div class="row">
                 <div class="col-md-12">
-                  <!--   Kitchen Sink -->
-                         <a href="<?php echo base_url();?>c_form/form_tambah_layanan" class="btn btn-primary btn-md"><span class="glyphicon glyphicon-plus-sign"></span> <b>TAMBAH</b> </a>
-                            <div class="table-responsive" style="margin-top: 20px">
-                                <table class="table table-striped table-bordered table-hover">
-                                    <thead>
-                                        <tr>
-                                            <th>No</th>
-                                            <th>SID</th>
-                                            <th>Lokasi</th>
-                                            <th>Kapasitas</th>
-                                            <th>Nama PIC</th>
-                                            <th>No HP</th>
-                                            <th></th>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                        <tr>
-                                            <td>1</td>
-                                            <td>170000268240020</td>
-                                            <td>Jatinegara</td>
-                                            <td>2 MB</td>
-                                            <td>Mulyono</td>
-                                            <td>081234567</td>
-                                            <td><center> <a class="btn btn-default" href="<?php echo base_url();?>c_form/form_edit_layanan">Edit</a> <button class="btn btn-danger" onclick='delete_user(<?php echo $u->id ?>)' data-toggle="modal" data-target="#myModal">Hapus</button></td>
-                                        </tr>
-                                    </tbody>
-                                </table>
-                            </div>
-                        </div>
-                    </div>
-                     <!-- End  Kitchen Sink -->
+                    <h4 class="page-head-line">Edit Layanan </h4>
                 </div>
             </div>
-        </div>
-    </div>
-
-    <!-- Modal -->
-    <div id="myModal" class="modal fade" role="dialog">
-      <div class="modal-dialog">
-
-        <!-- Modal content-->
-        <div class="modal-content">
-          <div class="modal-header">
-            <button type="button" class="close" data-dismiss="modal">&times;</button>
-            <h4 class="modal-title" align="center">Keterangan Jenis Gangguan</h4>
-          </div>
-          <div class="modal-body">
-            <p align="center">CABLE : PUTUS KABEL FO tipe F8</p>
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-default" data-dismiss="modal">Tutup</button>
-          </div>
-        </div>
-
-      </div>
-    </div> <!-- MODAL -->
-
-        <!-- FOOTER -->
-       <!-- CONTENT-WRAPPER SECTION END-->
+            <div class="row">
+                <div class="col-md-6">
+                    <br />
+                    <form onsubmit="return validasi()" action="<?php echo base_url();?>c_add/tambah_u" method="post">
+                        <div class="form-group">
+                          <label for="ID">SID <font color="red">*</font></label>
+                          <input style="width:500px" class="form-control" id="ID" type="text" name="NoIjazah">
+                        </div>
+                        <div class="form-group">
+                          <label for="nama">Lokasi<font color="red">*</font></label>
+                          <input id="nama" type="text" style="width:500px" class="form-control" name="nama">
+                        </div>
+                        <div class="form-group">
+                          <label for="password">Kapasitas<font color="red">*</font></label>
+                          <input id="password" type="password" style="width:500px" class="form-control" name="email">
+                        </div>
+                        <div class="form-group">
+                          <label for="comfirmpassword">Nama PIC<font color="red">*</font></td>
+                          <input type="password" id="confirmpassword" name="password" style="width:500px" class="form-control">
+                        </div>
+                        <div class="form-group">
+                          <label for="comfirmpassword">No. HP PIC<font color="red">*</font></td>
+                          <input type="password" id="confirmpassword" name="password" style="width:500px" class="form-control">
+                        </div>
+                        <hr/>
+                          <button type="submit" class="btn btn-default btn-lg">Edit </button>
+                        </label></div></form>
+                        
+                        </div>
+                        </div>  
+                      </div>
+                    </div>
+                  </div>
+    <!-- CONTENT-WRAPPER SECTION END-->
     <footer>
         <div class="container">
             <div class="row">

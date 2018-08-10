@@ -10,6 +10,10 @@ class c_form extends CI_Controller {
   $this->load->view('form_tambah_layanan');
  }
 
+ public function form_edit_layanan(){
+  $this->load->view('form_edit_layanan');
+ }
+
 
 }
 
