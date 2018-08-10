@@ -105,8 +105,14 @@
                                         </tr>
                                     </tbody>
                                 </table>
+<<<<<<< HEAD
                                 <!-- back -->
                                 <a href="<?php echo base_url();?>c_main/v2" class="btn btn-default" role="button">< KEMBALI </a>
+=======
+                                <br>
+                                
+                                
+>>>>>>> 262cde1662988dae77df899a1dcf57ffdd0e86dc
                             </div>
                         </div>
                     </div>
